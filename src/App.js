@@ -3,6 +3,13 @@ import './App.css';
 
 const projects = [
   {
+    name: "Total Automotriz",
+    description: "Catálogo web de vehículos usados con datos desde Google Sheets, panel de carga con Cloudinary y consultas por WhatsApp.",
+    stack: ["React", "Vite", "Google Sheets", "Node.js", "Cloudinary", "PWA", "Cloudflare Workers"],
+    repo: 'https://github.com/By2Hash/pry-total-automotriz',
+    live: 'https://total-automotriz.destock-baupe.workers.dev/',
+  },
+  {
     name: "KioscoApp",
     description: "Pagina web de resgitro de ventas y gestion de stock para un kiosco.",
     stack: ["Python", "Streamlit", "Google Sheets API"],
